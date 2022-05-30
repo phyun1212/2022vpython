@@ -1,1 +1,8 @@
-print('wellcome to the MTE world')
+import random
+for i in range(100) :
+  x = random.randint(-10,10)
+  y = random.randint(-10,10)
+  if i % 2 == 0 :
+    box(pos = vec(x,y,0), color = color.red)
+  else :
+    box(pos = vec(x,y,0), color = color.green)
